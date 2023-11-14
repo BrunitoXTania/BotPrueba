@@ -1192,9 +1192,9 @@ if (m.text && user.banned && !isROwner) {
 *👉 Puedes contactar a la propietaria del Bot si crees que se trata de un error (TENER PRUEBAS) para tratar el motivo de tú desbaneo*
 
 👉 ${global.asistencia}
-👉 wa.me/51929741688
-👉 wa.me/51929741688
-👉 Wa.me/51929741688
+👉 wa.me/51906090149
+👉 wa.me/51906090149
+👉 Wa.me/51906090149
 👉 ${global.ig}
 `.trim();
     
@@ -1278,7 +1278,7 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
                     m.reply('Exp limit') // Hehehe
                 else               
                 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-                    this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝑴𝑨𝑻𝑬𝑶𝘾𝙊𝙄𝙉𝙎`, m)
+                    this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝑩𝑹𝑼𝑵𝑶𝘾𝙊𝙄𝙉𝙎`, m)
                     continue     
 		}
 			
@@ -1348,7 +1348,7 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
                         m.reply(+m.limit + lenguajeGB.smsCont8())
                 }
                  if (m.money)
-                        m.reply(+m.money + ' 𝑴𝑨𝑻𝑬𝑶𝘾𝙊𝙄𝙉𝙎 🐱 𝙐𝙎𝘼𝘿𝙊(𝙎)')
+                        m.reply(+m.money + ' 𝑩𝑹𝑼𝑵𝑶𝘾𝙊𝙄𝙉𝙎 🐱 𝙐𝙎𝘼𝘿𝙊(𝙎)')
               
                 break
             }
