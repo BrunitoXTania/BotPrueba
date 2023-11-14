@@ -19,7 +19,7 @@ let caption = `${eg}
 ┃ ${mime}`.trim()
 conn.reply(m.chat, caption, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭 | 𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭',
+title: '𝐁𝐫𝐮𝐧𝐨 𝐁𝐨𝐭 | 𝐁𝐫𝐮𝐧𝐨 𝐁𝐨𝐭',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
