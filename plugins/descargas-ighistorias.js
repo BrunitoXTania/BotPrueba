@@ -12,7 +12,7 @@ if (/image/.test(mime)) await conn.sendFile(m.chat, i, 'error.jpg', null, m).cat
 if (/video/.test(mime)) await conn.sendFile(m.chat, i, 'error.mp4', null, m).catch(() => { return m.reply(`${lenguajeGB['smsAvisoFG']()}𝙐𝙎𝙐𝘼𝙍𝙄𝙊 𝙄𝙉𝙑𝘼́𝙇𝙄𝘿𝙊𝙎 𝙊 𝙎𝙄𝙉 𝙃𝙄𝙎𝙏𝙊𝙍𝙄𝘼𝙎`)})
 conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}💖 *Infórmate sobre las Novedades y recuerda tener la última versión.*\n\n💝 *Find out about what's new and remember to have the latest version.*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭 | 𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭',
+title: '𝐁𝐫𝐮𝐧𝐨 𝐁𝐨𝐭 | 𝐁𝐫𝐮𝐧𝐨 𝐁𝐨𝐭',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
