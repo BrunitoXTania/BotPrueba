@@ -1,4 +1,4 @@
-# Código creado por @mateo_ventas     
+# Código creado por @bruno_ventas     
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución      
